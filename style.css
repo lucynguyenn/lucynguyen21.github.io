@@ -1,0 +1,65 @@
+html{
+    font-size: 30px;
+    font-family: monospace;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+span{
+    color: crimson;
+}
+.background p{
+    font-size: 30px;
+    color: rgb(247, 242, 242);
+    letter-spacing: 2.5px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 5px crimson;
+}
+.background h3{
+    font-size: 45px;
+    font-weight: 850;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    color: greenyellow;
+    text-transform: uppercase;
+}
+.background h2{
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: yellow;
+    text-shadow: 1px 1px 4px rgb(240, 23, 66) ;
+}
+.background a{
+    padding: 12px 30px;
+    border-radius: 5px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+.background .navbuttons{
+    background: #a9e602c2;
+    color: #000;
+}
+.background .navbuttons:hover{
+    background: rgb(255, 83, 3);
+    color: #000
+}
